@@ -1,5 +1,9 @@
 body {
     display: flex;
     background-color: #fff;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+h1 {
+font-weight: 400;
 }
