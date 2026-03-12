@@ -1,0 +1,13 @@
+body{
+    font-family: ;
+}
+.course-title {
+
+    display: block;
+}
+nav {
+    display: flex;
+}
+.cards{
+    display: grid;
+}
