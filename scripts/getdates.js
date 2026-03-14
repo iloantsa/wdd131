@@ -1,2 +1,2 @@
 
-document.getElementById("lastModified").innerHTML = document.lastModified;
+document.getElementById("lastModified").innerHTML = "Last Modification:" + document.lastModified;

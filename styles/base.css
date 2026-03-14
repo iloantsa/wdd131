@@ -1,40 +1,83 @@
 body{
-    font-family:"Roboto", sans-serif;;
+    font-family:"Roboto", sans-serif;
+    font-weight: 400;
     color: black;
 }
 .course-title {
-
-    display: block;
-}
-nav {
-    display: flex;
-    padding: 10px;
-}
-.cards{
+    font-family: "Iosevka Charon Mono", monospace;
+    text-align: center; 
     display: grid;
+    margin: 20px;
+    font-size: 2.5rem;
+    
+    
+}
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+
+    
+
+}
+nav{
+    background-color: grey;
+}
+nav a{
+    display: block;
+    color: #eee;
+    text-decoration: none;
+    padding: 15px;
+    
+
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    font-family: "Iosevka Charon Mono", monospace;
+    color:#eee;
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    font-family: "Iosevka Charon Mono", monospace;
+    background-color: #1f4f63;
+    color:#eee;
+    text-align: center;
+    padding: 20px 0;
+
 }
 
 main {
-    max-width: 75vw;
+    width: 50%;
     margin: 1rem auto;
-    background-color: #eee;
     padding: 1rem;
-    border: 1px solid rgb(0 0 0 / .1);
 }
-header{
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0 40px;
-
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+.card img{
+    width: 200px;
+    height: auto;
 }
 footer{
-    width: 840px;
+    font-family: "Iosevka Charon Mono", monospace;
+    background-color: #1f4f63;  
+    text-align: center;  
     margin: 0 auto;
+    color: #eee;
 
 }
-:hover{
-    align-self: auto;
+a:hover{
+    text-decoration: underline;
 
 }
 
+#lastModified{
+    color: yellow;
+}
