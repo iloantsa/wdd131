@@ -10,8 +10,6 @@ body {
 /* mobile **************************/
 header {
     background-color: #570e66;
-    display: grid;
-    grid-gap: 1rem;
     padding: 20px;
     border: 1px solid #333;
     box-shadow: 0 0 30px #a9a3ac;
