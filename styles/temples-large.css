@@ -18,5 +18,4 @@
 .container {
     grid-template-columns:  1fr 1fr 1fr;
     justify-content: center;
-    justify-content: space-between;
 }

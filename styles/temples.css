@@ -21,8 +21,9 @@ header {
 
 .container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 25px;
+    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
     place-items: center;
     
 
@@ -69,7 +70,6 @@ footer {
     font-family: "Iosevka Charon Mono", monospace;
     background-color: #570e66;
     text-align: center;
-    margin: 0 auto;
     color: #eee;
 
 }
