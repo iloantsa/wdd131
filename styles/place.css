@@ -1,126 +1,100 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
+:root{
+    font-family: "Roboto", sans-serif;
+    background-color: #ebe9ea;
+}
 body {
-    font-family: "Sansita", sans-serif;
+    font-weight: 400;
+    color: #070606;
 }
 
-/* mobile **************************/
-header {
-    display: flex;
-    justify-content: space-between;
-    background-color: #570e66;
-    padding: 20px;
-    border: 1px solid #333;
-    box-shadow: 0 0 30px #a9a3ac;
-    color: #fff;
-    margin: 0 auto;
-    font-size: 1.5rem;
-}
-
-
-.container {
+.course-title {
+    font-family: "Iosevka Charon Mono", monospace;
+    text-align: center;
     display: grid;
-    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
-    place-items: center;
+    margin: 20px;
+    font-size: 2.5rem;
 
 
 }
 
 h1 {
-    display: block;
-    font-size: 2rem;
     text-align: center;
-    margin: 20px;
+    font-size: 2.5rem;
+
+
+
 }
 
 nav {
-    background-color: #570e66;
-}
-
-nav ul {
-    list-style: none;
+    background-color: #444;
 }
 
 nav a {
     display: block;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
+    color: #eee;
     text-decoration: none;
-    font-size: larger;
+    padding: 15px;
+
+
 }
 
-nav a:hover {
-    text-decoration: underline;
-    background-color: #eee;
-    color: #000;
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Iosevka Charon Mono", monospace;
+    color: #eee;
+    margin: 0;
+    list-style: none;
+    padding: 0;
 }
 
-.active {
-    color: yellow;
+
+header {
+    font-family: "Iosevka Charon Mono", monospace;
+    background-color: #631f49;
+    color: #eee;
+    text-align: center;
+    padding: 20px 0;
+
 }
 
+main {
+    width: 50%;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+.hero img {
+    width: 100%;
+    height: auto;
+}
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.card img {
+    width: 200px;
+    height: auto;
+}
 
 footer {
     font-family: "Iosevka Charon Mono", monospace;
-    background-color: #570e66;
+    background-color: #631f49;
     text-align: center;
-    color: #eee;
-
-}
-
-#menu {
-    display: block;
-    font-size: 2rem;
-    font-weight: 700;
-    text-decoration: none;
-    padding: 0.5rem 0.75rem;
-    background-color: #570e66;
-    color: #eee;
-}
-
-
-#menu::before {
-    content: "≡";
-}
-
-#menu.show::before {
-    content: "X";
-}
-
-
-.navigation {
-    display: none;
-    list-style: none;
     margin: 0 auto;
-    max-width: 760px;
-}
-
-
-
-.navigation a {
-    display: block;
-    padding: 0.75rem;
-    text-align: left;
-    text-decoration: none;
     color: #eee;
-    font-weight: 700;
-    transition: 0.5s;
-    font-size: clamp(1rem, 2vmin, 1.5rem);
+
 }
 
-.navigation a:hover,
-.navigation a:active {
-    color: #111;
+a:hover {
+    text-decoration: underline;
+
 }
 
-.navigation.show {
-    display: flex;
-    flex-direction: column;
+#lastModified {
+    color: yellow;
 }
