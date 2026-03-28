@@ -105,3 +105,7 @@ a:hover {
         justify-content: space-between;
     }
 }
+div::after{
+    color: #000;
+
+}
