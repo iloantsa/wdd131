@@ -27,7 +27,6 @@ header {
     grid-template-columns: 1fr;
     grid-gap: 10px;
     place-items: center;
-    box-shadow: #bfb1c5;
 
 
 }
