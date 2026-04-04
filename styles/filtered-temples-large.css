@@ -1,0 +1,38 @@
+/* Larger Views ******************************/
+@media (min-width: 740px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+    }
+
+    nav a {
+        flex: 1 1 100%;
+    }
+
+    .res-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        
+
+    }
+
+
+    #hambutton {
+        display: none;
+    }
+
+    #navmenu {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+
+}
