@@ -140,7 +140,10 @@ footer {
     color: #0a0a0a;
 
 }
-
+a {
+    margin-left: 50px;
+    padding: 20px;
+}
 #lastModified {
     color: #f2fd51;
 }
