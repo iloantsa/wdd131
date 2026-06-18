@@ -9,6 +9,7 @@
         content="This is my WDD 131 final project, presentation of the tourism in Madagascar – Dynamic Web Fundamentals page by RAVAOARINIAINA.">
     <meta name="author" content="RAVAOARINIAINA Antsafifaliana">
     <link rel="stylesheet" href="styles/final-project.css">
+    <link rel="stylesheet" href="styles/final-project-large.css">
     <link href="https://fonts.googleapis.com/..." rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +20,7 @@
     <header>
         <h1>Welcome to Madagascar</h1>
         
-        <button id="menu"></button>
+        <button id="hambutton"></button>
         <nav>
             <ul class="navigation">
                 <li><a href="finalproject.html" class="active">Home</a></li>
@@ -30,16 +31,23 @@
 
 
         </nav>
-        <P>
-            Madagascar offers unique landscapes, beautiful beaches, national parks,
-            and amazing wildlife found nowhere else in the world.
-        </P>
+        
 
 
     </header>
     <main>
+        <section class="hero">
+
+            <img src="images/nosyiranja.jpg" alt="Nosy Be beach">
+
+
+            <P>
+                Madagascar offers unique landscapes, beautiful beaches, national parks,
+                and amazing wildlife found nowhere else in the world.
+            </P>
+        </section>
         <h2>About Madagascar</h2>
-        <div class="container">
+        <div class="about">
             
             <ul>
                 <li>Located in the Indian Ocean</li>
@@ -48,12 +56,15 @@
                 <li>Known for unique plants and animals</li>
             </ul>
             
+            
 
         </div>
+        <div class="gallery">
         <figure>
             <img src="images/madagascar.jpg" alt="Mada Map" loading="lazy">
             <figcaption>Map of Madagascar</figcaption>
         </figure>
+        
         
         <figure>
             <img src="images/turtle.jpg" alt="turtle" loading="lazy">
@@ -65,10 +76,8 @@
             <figcaption>Baobab tree</figcaption>
         </figure>
         
-        <figure>
-            <img src="images/nosybe.jpg" alt="Nosy BE Beach" loading="lazy">
-            <figcaption>Nosy Be beach</figcaption>
-        </figure>
+        
+        </div>
       
         
     

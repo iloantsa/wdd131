@@ -1,16 +1,28 @@
- @media screen and (min-width: 500px) {
-     header {
-         max-width: 640px;
-         margin: 1rem auto;
-         border: 1px solid #bbb;
-         padding: 1rem;
-         background-color: #131414;
-         color: #fff;
+ @media screen and (min-width: 768px) {
+    .res-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        #navmenu {
+            display: flex;
+        }
+
+        #hambutton {
+            display: none;
+        }
+        .about {
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+}
+ @media screen and (min-width: 1024px) {
+
+     .res-grid {
+         grid-template-columns: repeat(3, 1fr);
      }
 
      main {
-         display: grid;
-         grid-template-columns: 1fr 1fr;
-         grid-gap: 1rem;
+         max-width: 1200px;
+         margin: 0 auto;
      }
  }
