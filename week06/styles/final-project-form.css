@@ -100,7 +100,7 @@ fieldset label {
 
 button {
     margin: 1rem;
-    background-color: #250125;
+    background-color: #399cca;
     color: #eee;
     border: none;
     border-radius: .5rem;
@@ -113,9 +113,9 @@ button:hover {
 }
 
 footer {
-    background-color: #570e66;
+    background-color: #399cca;
     text-align: center;
-    color: #eee;
+    color: #080808;
 }
 
 #lastModified {
